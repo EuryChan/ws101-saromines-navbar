@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body{
+    font-family: "Poppins", sans-serif;
+    background: #191431;
+}
+
+.container{   
+    text-align: center;
+}
+
+.nav{
+    background: #15075a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 1rem;
+    padding: 1.2rem;
+    transition: 0.5s;
+    z-index: -1;
+    padding-right: 4rem;
+    
+}
+
+.site-title{
+    font-size: 1.75rem;
+    font-weight: 400;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;  
+    padding-left: 4rem;
+}
+
+.nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    
+    
+    
+}
+
+.nav a{
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+    cursor: pointer;
+    color: white;
+   
+}
+.nav li{
+    cursor: pointer;
+    color: white;
+    background: #2E236C;
+    border-radius: 20%;
+    box-shadow: 0 0 1rem #6b61d1;
+    padding: .3rem .3rem;
+}
+
+.nav li.active{
+    background-color: #2E236C;
+}
+
+.nav li:hover{
+    background-color: #433D8B;
+    border-radius: 20%;
+}
+
+.intro h1{
+    font-size: 5rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+  
+  text-align: center;
+  
+}
+
+
+
+/*  HOME */
+
+.homee{
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    border: #15075a;
+    font-size: 2rem;
+    padding-bottom: .5rem;
+}
+
+.button {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 0;
+}
+  
+.button:hover {
+    background-color: blue;
+}
+
+.more{
+    margin: 0;
+}
+
+
+/*  ABOUT */
+
+.aboutt{
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    border: #15075a;
+    font-size: 4rem;
+    padding-bottom: .5rem;
+}
+.abouts {
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
+    background-color: #191431;
+    margin: 0;
+    width: 50%;
+    margin-left: 25%;
+}
+
+
+
+
+
+.left-side form{
+    width: 90%;
+    height: 30px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    margin-top: 13rem;
+    margin-left: 3rem;
+}
+
+form input, form textarea{
+    width: 40%;  
+    border: 2px solid white;
+    outline: none;
+    background: #191431;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin: 10px 0;
+    color: white;
+    font-size: 14px;
+    border-radius: 6px;
+    margin-top: 6px;
+    padding-right: 70px;
+}
+form .Btn2{
+    width: 100px;
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+    background: #2E236C;
+    border-radius: 20%;
+    box-shadow: 0 0 1rem #6b61d1;
+    
+}
+
+form .Btn2:hover{
+    box-shadow: none;
+
+}
