@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ws101-saromines-navbar/static/css/main.a09eda7e.css",
+    "main.js": "/ws101-saromines-navbar/static/js/main.b2bb47f6.js",
+    "static/media/hom.png": "/ws101-saromines-navbar/static/media/hom.2feb871733c767190d04.png",
+    "index.html": "/ws101-saromines-navbar/index.html",
+    "main.a09eda7e.css.map": "/ws101-saromines-navbar/static/css/main.a09eda7e.css.map",
+    "main.b2bb47f6.js.map": "/ws101-saromines-navbar/static/js/main.b2bb47f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a09eda7e.css",
+    "static/js/main.b2bb47f6.js"
+  ]
+}
